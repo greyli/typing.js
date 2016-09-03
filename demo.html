@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Typing.js</title>
+    <link href="css/typing.css" rel="stylesheet">
+    <link href="css/demo.css" rel="stylesheet">
+</head>
+
+<div id="typing">
+	<span id="words"></span><span id="cursor">|</span>
+</div>
+
+<a class="button" id="gh-bt" href="https://github.com/lihuii/typing.js/">了解用法</a>
+<a class="button" id="bl-bt" href="http://withlihui.com/" target="_blank">我的博客</a>
+
+
+<script src="js/typing.js"></script>
+<script>
+ // var strings = new Array("def hi():<br>print \"hello, world!\"<br>    return None") // single words
+  var strings = new Array("typing.py是一个js库", "它可以自动打出字，", "然后又", "然后删掉这些字，","就像这样。","快来试试吧！") ; // multi words
+  var typingSpeed = 100;
+  var deleteSpeed = 40;
+  var isLoop = false;
+</script>
