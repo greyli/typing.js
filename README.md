@@ -1,14 +1,14 @@
 # typing.js
 打字机动画效果（animates typing）
 
-[caption id="attachment_1009" align="aligncenter" width="963"]<a href="http://withlihui.com/wp-content/uploads/2016/09/demo.gif" rel="attachment wp-att-1009"><img class="wp-image-1009 size-full" src="http://withlihui.com/wp-content/uploads/2016/09/demo.gif" alt="打字机效果" width="963" height="222" /></a> 打字机效果[/caption]
+<img src="http://withlihui.com/wp-content/uploads/2016/09/demo.gif" alt="打字机效果" width="750" height="150" />
 <p>Github项目地址： <a href="https://github.com/lihuii/typing.js" target="_blank">https://github.com/lihuii/typing.js</a></p>
 <p>&nbsp;</p>
 <h2>下载</h2>
 <p>Zip：<a href="https://github.com/lihuii/typing.js/archive/master.zip" target="_blank">https://github.com/lihuii/typing.js/archive/master.zip</a></p>
 <p>&nbsp;</p>
 <h2>DEMO</h2>
-<p>打字机效果很适合用在个人页面和主页的头部，下面是几个示例（后两个页面使用的是typed.js）。<br />
+<p>打字机效果很适合用在个人页面和主页的头部，下面是几个示例。<br />
 <a href="http://fanxiangce.com" target="_blank">翻相册</a>（页脚）<br />
 <a href="https://productmap.co/" target="_blank">https://productmap.co/<br />
 http://www.stephanemartinw.com/</a></p>
@@ -29,7 +29,7 @@ http://www.stephanemartinw.com/</a></p>
   var strings = new Array("一段文字"); // 单个字段
 &lt;/script&gt;</pre>
 <pre class="">&lt;script&gt;
-  var strings = new Array("文段1", "文段2"); // 多个字段
+  var strings = new Array("文段1", "文段2", "文段3", "文段n"); // 多个字段
 &lt;/script&gt;</pre>
 <p class=""> </p>
 <p class="">可选的设置有打字速度和删除速度，是否循环（默认为循环）等。</p>
