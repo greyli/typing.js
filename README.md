@@ -1,8 +1,7 @@
 # typing.js
 打字机动画效果（animates typing）
 
-<img src="http://withlihui.com/wp-content/uploads/2016/09/demo.gif" alt="打字机效果" width="750" height="150" />
-<p>Github项目地址： <a href="https://github.com/lihuii/typing.js" target="_blank">https://github.com/lihuii/typing.js</a></p>
+<img src="http://withlihui.com/wp-content/uploads/2016/09/demo.gif" alt="打字机效果" width="600" height="120" />
 <p>&nbsp;</p>
 <h2>下载</h2>
 <p>Zip：<a href="https://github.com/lihuii/typing.js/archive/master.zip" target="_blank">https://github.com/lihuii/typing.js/archive/master.zip</a></p>
