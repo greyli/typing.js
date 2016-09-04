@@ -10,17 +10,15 @@
 </head>
 
 <div id="typing">
-	<span id="words"></span><span id="cursor">|</span>
+	>>><span id="words"></span><span id="cursor">|</span>
 </div>
 
-<a class="button" id="gh-bt" href="https://github.com/lihuii/typing.js/">了解用法</a>
-<a class="button" id="bl-bt" href="http://withlihui.com/" target="_blank">我的博客</a>
-
+<a id="bt" href="https://github.com/lihuii/typing.js/" target="_blank">了解更多</a>
 
 <script src="js/typing.js"></script>
 <script>
- // var strings = new Array("def hi():<br>print \"hello, world!\"<br>    return None") // single words
-  var strings = new Array("typing.py是一个js库", "它可以自动打出字，", "然后又", "然后删掉这些字，","就像这样。","快来试试吧！") ; // multi words
+  // var strings = new Array("This is single words.")
+  var strings = new Array("typing.py是一个js库", "它可以自动打出字，", "然后删掉这些字，","就像这样。","快来试试吧！") ; // This is multi words
   var typingSpeed = 100;
   var deleteSpeed = 40;
   var isLoop = false;

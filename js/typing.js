@@ -1,6 +1,9 @@
-// Typing is
-// Author:
-// Github
+/* Typing.js - animates typing effect.
+* Author: Lihui
+* Websitte: withlihui.com
+* Github: github.com/lihuii/typing.js
+* MIT licesned.
+*/
 
 var b = 0;
 var c = 0;
