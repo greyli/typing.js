@@ -30,7 +30,7 @@ cursor is a blink "|", you can change it.
 
 ##Use it for placeholder
 ``` HTML
-<input id="words" type="text" name="domain" value="" placeholder="">
+<input id="words" type="text" placeholder="">
 ```
 then set `var isPlaceholder = true;` (the cursor in placeholder isn't blink, waiting for solve...)
 
