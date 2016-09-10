@@ -3,7 +3,7 @@
 
 <img src="http://withlihui.com/wp-content/uploads/2016/09/demo.gif" alt="打字机效果" width="600" height="120" />
 <p>&nbsp;</p>
-<h2>下载</h2>
+<h2>Download</h2>
 <p>Zip：<a href="https://github.com/lihuii/typing.js/archive/master.zip" target="_blank">https://github.com/lihuii/typing.js/archive/master.zip</a></p>
 <p>&nbsp;</p>
 <h2>DEMO</h2>
@@ -12,9 +12,9 @@
 <a href="https://productmap.co/" target="_blank">https://productmap.co/<br />
 http://www.stephanemartinw.com/</a></p>
 <p>&nbsp;</p>
-<h2>用法</h2>
+<h2>Usage</h2>
 
-首先把CSS和JS文件放到相应的目录下，然后在HTML文件里分别引入这两个文件：  
+## Link  
 CSS  
 ``` HTML
 <link href="typing.css" rel="stylesheet">
@@ -24,31 +24,37 @@ JS
 <script src="typing.js"></script>
 ``` 
 
-在需要放置的地方插入下面这行  
+##Use it for text
 ``` HTML
 <span id="words"></span><span id="cursor">|</span>
 ```
-cursor是文字后面闪烁的光标，你可以更换它。  
+cursor是文字后面闪烁的光标，你可以更换它。cursor is blink, you can change it.
 
- 
+##Use it for placeholder
+``` HTML
+<input id="words" type="text" name="domain" value="" placeholder="">
+```
+then set `var isPlaceholder = true;`
 
-最后在末尾设置你要定义的字段和相关的设置。首先你需要定义一个数组，然后写入单个或多个字段。
+
+##Setting
+for one line text
+```Javascript
+  var strings = new Array("一段文字"); // single words
+```
+or multi text
+```Javascript
+  var strings = new Array("文段1", "文段2"); // multi words
+```
+  
+more options
 ```Javascript
 <script>
-  var strings = new Array("一段文字"); // 单个字段
-</script>
-<script>
-  var strings = new Array("文段1", "文段2"); // 多个字段
-</script>
- ```
-
-可选的设置有打字速度和删除速度，是否循环（默认为循环）等。
-```Javascript
-<script>
-  var strings = new Array("文段1", "文段2") ; // multi words
+  var strings = new Array("text1", "text2", "...") ; // multi words
   var typingSpeed = 100; // 打出每个字的间隔时间
   var deleteSpeed = 40; // 删除每个字的间隔时间
   var isLoop = true; // 是否循环，true/false
   var waitTime = 800; // 打完一个字段后的等待时间
+  var isPlaceholder = false; // if you use tying.js for placeholder, set it true.
 </script>
 ```
