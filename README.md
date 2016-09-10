@@ -32,7 +32,7 @@ cursor is a blink "|", you can change it.
 ``` HTML
 <input id="words" type="text" placeholder="">
 ```
-then set `var isPlaceholder = true;` (the cursor in placeholder isn't blink, waiting for solve...)
+then set `var isPlaceholder = true;` (the cursor in placeholder isn't blink, it's waiting to solve...)
 
 
 ##Setting
