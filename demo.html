@@ -10,18 +10,17 @@
 </head>
 
 <div id="typing">
-	>>><span id="words"></span><span id="cursor">|</span>
+	text: <span id="words"></span><span id="cursor">|</span><br><br>
+	Placeholder: <!--input id="words" type="text" placeholder=""-->
 </div>
 
-<!--input id="words" type="text" name="domain" value="" placeholder="www.yourdomain.com|"-->
 
-<a id="bt" href="https://github.com/lihuii/typing.js/" target="_blank">了解更多</a>
+<a id="bt" href="https://github.com/lihuii/typing.js/" target="_blank">Learn More</a>
 
 <script src="js/typing.js"></script>
-<script src="js/jquery.min.js"></script>
 <script>
-  var strings = new Array("This is single words.")
-  // strings = new Array("typing.py是一个js库", "它可以自动打出字，", "然后删掉这些字，","就像这样。","快来试试吧！") ; // This is multi words
+  // var strings = new Array("www.yourdomain.com")
+  var strings = new Array("typing.js can make animates typing effect.", "It can type words,", "then delete them.", "Just like this.", "Try it out!"); // This is multi words
   var typingSpeed = 100;
   var deleteSpeed = 40;
   var isLoop = true;
