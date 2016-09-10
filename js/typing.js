@@ -9,6 +9,7 @@ var b = 0;
 var c = 0;
 var isTyping = true;
 var isLoop = true;
+var isPlaceholder = false;
 var i = 0;
 var typingSpeed = 100;
 var deleteSpeed = 40;
@@ -16,7 +17,12 @@ var waitTime = 600
 setTimeout("typing()", waitTime);
 
 function typing() {
-	document.getElementById("words").innerHTML = strings[i].substring(c, b);
+    if (isPlaceholder == true) {
+	    document.getElementById("words").placeholder = strings[i].substring(c, b);
+    } else {
+    	document.getElementById("words").innerHTML = strings[i].substring(c, b);
+    }
+
 	if (b == strings[i].length){
 	    setTimeout("b=0, c=strings[i].length, isTyping=true", waitTime);
 	} else {
