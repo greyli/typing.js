@@ -1,18 +1,13 @@
 # typing.js
-## animates typing effect（打字机动画效果）
+animates typing effect（打字机动画效果）
 
-<h2>Download</h2>
-<p>Zip：<a href="https://github.com/lihuii/typing.js/archive/master.zip" target="_blank">https://github.com/lihuii/typing.js/archive/master.zip</a></p>
-<p>&nbsp;</p>
-<h2>DEMO</h2>
-<p>打字机效果很适合用在个人页面和主页的头部，下面是几个示例。<br />
-<a href="http://fanxiangce.com" target="_blank">翻相册</a>（页脚）<br />
-<a href="https://productmap.co/" target="_blank">https://productmap.co/<br />
-http://www.stephanemartinw.com/</a></p>
-<p>&nbsp;</p>
-<h2>Usage</h2>
+## Demos
+* [翻相册页脚](http://fanxiangce.com)
+* https://productmap.co/
+* http://www.stephanemartinw.com/
 
-## Link  
+## How to use
+### Link  
 CSS  
 ``` HTML
 <link href="typing.css" rel="stylesheet">
@@ -22,20 +17,20 @@ JS
 <script src="typing.js"></script>
 ``` 
 
-##Use it for text
+### Use it for text
 ``` HTML
 <span id="words"></span><span id="cursor">|</span>
 ```
 cursor is a blink "|", you can change it.
 
-##Use it for placeholder
+### Use it for placeholder
 ``` HTML
 <input id="words" type="text" placeholder="">
 ```
 then set `var isPlaceholder = true;` (the cursor in placeholder isn't blink, it's waiting to solve...)
 
 
-##Setting
+## Setting
 for one line text
 ```Javascript
   var strings = new Array("text"); // single words
